@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="Bootstrap/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<style>
+			.m-p
+{
+	margin: 0px;
+	padding: 0px;
+}
+ul,li
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px
+}
+
+.logo
+{
+    height: 15%;
+    padding: 15% 10% 5% 10%;
+    text-align: center;
+}
+
+.img-logo
+{
+	    position: absolute;
+    padding: 11% 0%;
+    left: 20%;
+    top: 11%;
+}
+
+
+.dash-menu
+
+{
+	padding: 0% 10%;
+	height: 40%
+}
+
+.dash-menu li
+{
+	
+    height: 20%;
+    text-align: center;
+    /* line-height:` 4.5vw; */
+    color: white;
+    background-color: #656565;
+    font-size: 1.5vw;
+    font-weight: 400;
+    padding: 6%;
+}
+
+.dash-menu li:hover
+{
+	cursor: pointer
+}
+
+.circle-design
+{
+	background-color:#c9c9c9;
+	height: 100%;
+	width: 50%;
+	border-radius: 50%;
+	margin: 20% auto 0%;
+    border: solid .5vw white 
+}
+
+.log-out-btn
+{
+	background-color: #656565;
+	height: 100%;
+	font-size: 1vw;
+	color: white;
+	font-weight: 600;
+    right: 25%;
+   position: absolute;
+}
+input[type="text"] 
+{ 
+	font-size: 2vw;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+input[type="text"]:focus,.btn:focus
+{
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid m-p" style="height: 100vh;">
+			<div class="row m-p h-100" style="background-color: #c9c9c9;">
+				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2 m-p h-100" style="background-color: #161616;">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 m-p logo">
+						<img src="demo.jpg" class="m-p img-fluid h-100 img-logo">
+					</div>
+					<ul class="dash-menu">
+						<li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 m-p" style="margin: 15% 0% 0%">DASHBOARD</li>
+						<li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 m-p" style="margin: 9% 0%;">Instagram</li>
+						<li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 m-p" style="margin: 9% 0%;">Linkdin</li>
+						<li class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 m-p" style="">Download</li>
+					</ul>
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 m-p " style="height:17%">
+						<div class="circle-design" style="">
+						</div>
+					</div>
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 m-p text-center" style="margin: 5% 0% 25%;">
+						<h6 class="m-p text-white" style="font-size: 1.5vw">2/30 Days</h6>
+					</div>
+				</div>
+				<div class="" style="margin: 2%;width: 79.3%;height: 92%">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 bg-white col-xs-12 col-12 m-p h-100">
+						<div class="row m-p" style="height: 12%;padding: 2% 3% 1%;">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 m-p w-100 h-100" style="background: rgba(203, 203, 210, 0.1">
+								<h6 class="m-p h-100" style="padding: 1%;font-size: 1.5vw">Scraping</h6>
+							</div>
+						</div>
+						<div class="row m-p justify-content-center" style=" margin-top: 4% !important;height: 77%">
+							<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2 m-p" style="height: 10%">
+								<input type="text" placeholder="User name" class="w-100 rounded-0 border-0 m-p h-100" style="background-color: #ebebeb;position: absolute;;text-align: center">
+							</div>
+							<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2 m-p" style="padding-left:2%;height: 10%">
+								<button  class="btn w-100 rounded-0 text-white m-p border-0 h-100" style="background-color: #656565;position: absolute;"><h3 class="m-0" style="font-size: 2vw">START</h3></button>
+							</div>
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 text-center p-0" style="margin-top: 2%">
+								<p class="m-0" style="letter-spacing: .1vw;font-size: 1.3vw"><b>-Insert username of instagram profile that you want to scrap!</b></p>
+							</div>
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 text-center p-0" style="margin-top: 2%">
+								<h3 class="m-0" style="letter-spacing: .1vw;font-size: 2.3vw"><b>WE are working go play game and watch Movie<br><br>While we scraping</b></h3>
+							</div>
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 text-center p-0" style="margin-top: 2%">
+								<div class="row m-0 p-0 justify-content-center">
+									<p class="" style="letter-spacing: .1vw;margin: 3% 0% 0%;font-size: 1.3vw"><b>WE Have Scraped</b></p>
+									<div style="margin: auto 0% 0%;font-size: 3.3vw;width: 25%">28666/55555</div>
+									<p class="" style="letter-spacing: .1vw;margin: 3% 0% 0% 1%;font-size: 1.3vw"><b>Followers</b></p>
+								</div>
+							</div>
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 text-center p-0" style="margin-top: 2%;height: 15%">
+								<button class="btn border-0 rounded-0 m-p h-100" style="background-color: #656565;padding: 2%;position: absolute;left: 41%">
+									<h3 class="m-auto text-white" style="font-size: 2vw;">DOWNLOAD</h3></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
